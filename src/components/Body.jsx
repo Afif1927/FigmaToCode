@@ -1,6 +1,6 @@
 import frame35 from "../assets/Frame 35.png";
 import Counts from "../assets/Counts.png";
-import Pana from "../assets/Pana.png";
+import Pana from "../assets/pana.png";
 import Image9 from "../assets/Image 9.png";
 import Frame10 from "../assets/Frame 10.png";
 import image18 from "../assets/image 18.png";
