@@ -1,4 +1,4 @@
-import frame35 from "../assets/frame 35.png";
+import frame35 from "../assets/Frame 35.png";
 import Counts from "../assets/Counts.png";
 import Pana from "../assets/Pana.png";
 import Image9 from "../assets/Image 9.png";
