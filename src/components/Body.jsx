@@ -171,7 +171,7 @@ function Body() {
               src={image18}
               alt=''
             />
-            <div className=' h-[140px] sm:h-[176px] max-w-[317px] rounded text-[5.5vw] content bg-slate-200 flex  gap-[16px] flex-col md:p-[16px] justify-center items-center text-center'>
+            <div className='  md:h-[176px] max-w-[317px] rounded text-[5.5vw] content bg-slate-200 flex  gap-[16px] flex-col md:p-[16px] justify-center items-center text-center'>
               <div className='text px-16 sm:px-0 font-semibold text-[5.5vw] md:text-[20px] md:leading-[28px]'>
                 Creating Streamlined Safeguarding
                 Processes with OneRen
@@ -187,7 +187,7 @@ function Body() {
               src={image19}
               alt=''
             />
-            <div className=' h-[140px] sm:h-[176px] max-w-[317px] rounded top-48 text-[5.5vw] content bg-slate-200 flex  gap-[16px] flex-col md:p-[16px] justify-center items-center text-center'>
+            <div className='sm:h-[176px] max-w-[317px] rounded top-48 text-[5.5vw] content bg-slate-200 flex  gap-[16px] flex-col md:p-[16px] justify-center items-center text-center'>
               <div className='text px-16 sm:px-0 font-semibold  md:text-[20px] md:leading-[28px] '>
                 What are your safeguarding
                 responsibilities and how can you
@@ -204,7 +204,7 @@ function Body() {
               src={image20}
               alt=''
             />
-            <div className=' rounded h-[140px] sm:h-[176px] max-w-[317px] content bg-slate-200 flex  gap-[16px] flex-col md:p-[16px]  justify-center items-center  text-center  '>
+            <div className=' rounded sm:h-[176px] max-w-[317px] content bg-slate-200 flex  gap-[16px] flex-col md:p-[16px]  justify-center items-center  text-center  '>
               <div className='text px-16 sm:px-0 font-semibold text-[5.5vw] md:text-[20px] md:leading-[28px] '>
                 Revamping the Membership Model
                 with Triathlon Australia

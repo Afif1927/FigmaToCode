@@ -108,7 +108,7 @@ const Home = () => {
               src={Icon}
               alt=''
             />
-            <div className='text-1 font-bold text-[8vw] md:text-[28px] md:leading-[36px]'>
+            <div className='text-1 font-bold  md:text-[28px] md:leading-[36px]'>
               Membership <br /> Organisations
             </div>
             <div className='text-2 text-[5vw] md:text-[14px] md:leading-[20px]'>
@@ -123,7 +123,7 @@ const Home = () => {
               src={Icon}
               alt=''
             />
-            <div className='text-1  text-[8vw]  font-bold text-xl md:text-[28px] md:leading-[36px]'>
+            <div className='text-1    font-bold text-xl md:text-[28px] md:leading-[36px]'>
               National <br /> Associations
             </div>
             <div className='text-2  text-[5vw]  md:text-[14px] md:leading-[20px]'>
@@ -138,8 +138,7 @@ const Home = () => {
               src={Icon}
               alt=''
             />
-            <div className='text-1 text-[8vw] font-bold text-xl md:text-[28px] md:leading-[36px]'>
-              {" "}
+            <div className='text-1  font-bold text-xl md:text-[28px] md:leading-[36px]'>
               Clubs And <br /> Groups
             </div>
             <div className='text-2 text-[5vw] md:text-[14px] md:leading-[20px]'>

@@ -172,7 +172,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='links grid pr-9 sm:pr-0 sm:grid-cols-3 gap-2 sm:gap-[30px]'>
-          <div className='subcol flex justify-between gap-5 sm:gap-0'>
+          <div className='subcol flex justify-between  gap-5 sm:gap-0'>
             <div className='col1 flex flex-col md:gap-[24px]'>
               <div className='company font-semibold text-[6vw] sm:text-[20px] md:leading-[28px]'>
                 Company
