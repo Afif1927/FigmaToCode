@@ -200,7 +200,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='col3 flex flex-col gap-2 md:gap-[24px] '>
+          <div className='col3 flex flex-col gap-2 md:gap-[24px] pb-10 sm:pb-0 '>
             <div className='update text-[6vw] font-semibold md:text-[20px] md:leading-[28px]'>
               Stay Up to Date
             </div>
