@@ -1,25 +1,27 @@
 const Footer = () => {
   return (
-    <div className='Footer'>
+    <div className='Footer flex flex-col justify-between '>
       {/* #frame-16 */}
-      <div className='frame-16 p-8 sm:p-0 md:py-[32px] md:gap-[32px] gap-3 flex flex-col justify-center items-center'>
-        <div className='text font-semibold   text-center text-[#263238] md:text-[64px] md:leading-[76px]'>
+      <div className='frame-16 p-5 sm:p-0 md:py-[32px] md:gap-[32px] gap-3 flex flex-col justify-center items-center'>
+        <div className='text font-semibold text-[8vw]  text-center text-[#263238] md:text-[64px] md:leading-[76px]'>
           Pellentesque suscipit <br /> fringilla
           libero eu.
         </div>
-        <button className='btn1  text-[2.5vw] md:text-[16px] md:leading-[24px] px-2 py-1 md:px-[32px] md:py-[14px] font-medium text-center text-[#F5F7FA] rounded bg-[#4CAF4F]'>
+        <button className='btn1  text-[3vw] md:text-[16px] md:leading-[24px] px-4 py-2 md:px-[32px] md:py-[14px] font-medium text-center text-[#F5F7FA] rounded bg-[#4CAF4F]'>
           Get A Demo
         </button>
       </div>
 
       {/* Footer/Big/4 */}
 
-      <div className='Big4 flex md:max-h-[400px] md:py-10 sm:flex-row flex-col gap-1  sm:gap-[125px]  justify-center  md:px-[165px] bg-[#263238] text-zinc-100'>
-        <div className='company-info flex flex-col py-5 sm:py-0 items-start  sm:gap-8 gap-2 '>
-          <div className='logo flex md:gap-[9.89px] items-center'>
+      <div
+        className='Big4 flex  sm:flex-row flex-col gap-1  sm:gap-[125px]  justify-between items-center 
+       md:px-[165px] md:py-20 bg-[#263238] text-zinc-100'
+      >
+        <div className='company-info flex flex-col py-5 sm:py-0 items-start sm:gap-8 gap-2 '>
+          <div className='logo flex  md:gap-[9.89px] items-center'>
             <svg
-              width='43'
-              height='30'
+              className='h-[15px] w-[25px] sm:w-[43px] sm:h-[30px]  '
               viewBox='0 0 44 30'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -51,8 +53,7 @@ const Footer = () => {
             </svg>
 
             <svg
-              width='138'
-              height='26'
+              className='h-[15px] w-[167px] sm:w-[178px] sm:h-[26px]  '
               viewBox='0 0 138 26'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -87,11 +88,11 @@ const Footer = () => {
               />
             </svg>
           </div>
-          <div className='copyright flex flex-col gap-[8px]'>
-            <div className='copy-right-1 text-[14px] md:leading-[20px]'>
+          <div className='copyright flex flex-col sm:gap-[8px]'>
+            <div className='copy-right-1 text-[5vw] sm:text-[14px] md:leading-[20px]'>
               Copyright © 2020 Nexcent ltd.
             </div>
-            <div className='copy-right-1 text-[14px] md:leading-[20px]'>
+            <div className='copy-right-1 text-[5vw] sm:text-[14px] md:leading-[20px]'>
               All rights reserved.
             </div>
           </div>
@@ -170,41 +171,44 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className='links grid sm:py-0 py-4 grid-rows-3 pr-9 sm:pr-0 sm:grid-cols-3 gap-2 sm:gap-[30px]'>
-          <div className='col1 flex flex-col md:gap-[24px]'>
-            <div className='company font-semibold md:text-[20px] md:leading-[28px]'>
-              Company
+        <div className='links grid pr-9 sm:pr-0 sm:grid-cols-3 gap-2 sm:gap-[30px]'>
+          <div className='subcol flex justify-between gap-5 sm:gap-0'>
+            <div className='col1 flex flex-col md:gap-[24px]'>
+              <div className='company font-semibold text-[6vw] sm:text-[20px] md:leading-[28px]'>
+                Company
+              </div>
+              <ul className='text-[5vw] sm:text-[14px] md:leading-[20px] flex flex-col md:gap-[12px]'>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+                <li>Pricing</li>
+                <li>Testimonials</li>
+              </ul>
             </div>
-            <ul className='text-[14px] md:leading-[20px] flex flex-col md:gap-[12px]'>
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Testimonials</li>
-            </ul>
-          </div>
 
-          <div className='col2 flex flex-col md:gap-[24px]'>
-            <div className='company font-semibold md:text-[20px] md:leading-[28px]'>
-              Support
+            <div className='col2 flex flex-col md:gap-[24px]'>
+              <div className='company font-semibold  text-[6vw]  sm:text-[20px] md:leading-[28px]'>
+                Support
+              </div>
+              <ul className='text-[5vw]  sm:text-[14px] md:leading-[20px] flex flex-col md:gap-[12px]'>
+                <li>Help Center</li>
+                <li>Terms of Service</li>
+                <li>Legal</li>
+                <li>Privacy Policy</li>
+                <li>Status</li>
+              </ul>
             </div>
-            <ul className='text-[14px] md:leading-[20px flex flex-col md:gap-[12px]'>
-              <li>Help Center</li>
-              <li>Terms of Service</li>
-              <li>Legal</li>
-              <li>Privacy Policy</li>
-              <li>Status</li>
-            </ul>
           </div>
 
           <div className='col3 flex flex-col gap-2 md:gap-[24px] '>
-            <div className='update font-semibold md:text-[20px] md:leading-[28px]'>
+            <div className='update text-[6vw] font-semibold md:text-[20px] md:leading-[28px]'>
               Stay Up to Date
             </div>
             <div className=''>
               <input
                 type='text'
-                className='text-[14px] text-[#D9DBE1] opacity-[20%] md:leading-[20px] py-2 px-1 sm:py-3 sm:px-4 md:w-[255px] w-full rounded'
+                className='text-[14px] text-[#D9DBE1] opacity-[20%] md:leading-[20px] py-2 px-1 sm:py-3 sm:px-4
+                 md:w-[255px] w-full rounded'
                 placeholder='Your Email Address'
               />
             </div>

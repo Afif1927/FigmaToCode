@@ -4,7 +4,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className=' h-full w-screen  '>
+    <div className=' h-screen w-full  '>
       <Frame36 />
       <Home />
       <Body />
