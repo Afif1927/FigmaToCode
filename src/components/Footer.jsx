@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className='Footer flex flex-col justify-between '>
+    <div className='Footer flex flex-col   '>
       {/* #frame-16 */}
-      <div className='frame-16 p-5 sm:p-0 md:py-[32px] md:gap-[32px] gap-3 flex flex-col justify-center items-center'>
+      <div className='frame-16 p-5 sm:p-0 sm:py-[32px] md:gap-[32px] gap-3 flex flex-col justify-center items-center'>
         <div className='text font-semibold text-[8vw]  text-center text-[#263238] md:text-[64px] md:leading-[76px]'>
           Pellentesque suscipit <br /> fringilla
           libero eu.
@@ -15,13 +15,14 @@ const Footer = () => {
       {/* Footer/Big/4 */}
 
       <div
-        className='Big4 flex  sm:flex-row flex-col gap-1  sm:gap-[125px]  justify-between items-center 
-       md:px-[165px] md:py-20 bg-[#263238] text-zinc-100'
+        className='Big4 flex  sm:flex-row flex-col gap-1    sm:gap-[125px]   items-center 
+         md:px-[165px] py-5 sm:py-20 bg-[#263238] text-zinc-100'
       >
-        <div className='company-info flex flex-col py-5 sm:py-0 items-start sm:gap-8 gap-2 '>
-          <div className='logo flex  md:gap-[9.89px] items-center'>
+        <div className='company-info flex flex-col   sm:gap-8 gap-2 '>
+          <div className='logo flex gap-[9.89px] items-center'>
             <svg
-              className='h-[15px] w-[25px] sm:w-[43px] sm:h-[30px]  '
+              width='44'
+              height='30'
               viewBox='0 0 44 30'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -53,7 +54,8 @@ const Footer = () => {
             </svg>
 
             <svg
-              className='h-[15px] w-[167px] sm:w-[178px] sm:h-[26px]  '
+              width='138'
+              height='26'
               viewBox='0 0 138 26'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -89,10 +91,10 @@ const Footer = () => {
             </svg>
           </div>
           <div className='copyright flex flex-col sm:gap-[8px]'>
-            <div className='copy-right-1 text-[5vw] sm:text-[14px] md:leading-[20px]'>
+            <div className='copy-right-1  md:text-[14px] md:leading-[20px]'>
               Copyright © 2020 Nexcent ltd.
             </div>
-            <div className='copy-right-1 text-[5vw] sm:text-[14px] md:leading-[20px]'>
+            <div className='copy-right-1 md:text-[14px] md:leading-[20px]'>
               All rights reserved.
             </div>
           </div>
@@ -171,13 +173,13 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className='links grid pr-9 sm:pr-0 sm:grid-cols-3 gap-2 sm:gap-[30px]'>
-          <div className='subcol flex justify-between  gap-5 sm:gap-0'>
+        <div className='links flex flex-col sm:flex-row  gap-2 sm:gap-[30px]'>
+          <div className='subcol flex justify-between  gap-5 sm:gap-[30px]'>
             <div className='col1 flex flex-col md:gap-[24px]'>
               <div className='company font-semibold text-[6vw] sm:text-[20px] md:leading-[28px]'>
                 Company
               </div>
-              <ul className='text-[5vw] sm:text-[14px] md:leading-[20px] flex flex-col md:gap-[12px]'>
+              <ul className='sm:text-[14px] sm:leading-[20px] flex flex-col md:gap-[12px]'>
                 <li>About Us</li>
                 <li>Blog</li>
                 <li>Contact Us</li>
@@ -190,7 +192,7 @@ const Footer = () => {
               <div className='company font-semibold  text-[6vw]  sm:text-[20px] md:leading-[28px]'>
                 Support
               </div>
-              <ul className='text-[5vw]  sm:text-[14px] md:leading-[20px] flex flex-col md:gap-[12px]'>
+              <ul className='sm:text-[14px] sm:leading-[20px] flex flex-col md:gap-[12px]'>
                 <li>Help Center</li>
                 <li>Terms of Service</li>
                 <li>Legal</li>
@@ -199,9 +201,8 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-
-          <div className='col3 flex flex-col gap-2 md:gap-[24px] pb-10 sm:pb-0 '>
-            <div className='update text-[6vw] font-semibold md:text-[20px] md:leading-[28px]'>
+          <div className='col3 flex flex-col gap-2 md:gap-[24px] '>
+            <div className='update  font-semibold md:text-[20px] md:leading-[28px]'>
               Stay Up to Date
             </div>
             <div className=''>
